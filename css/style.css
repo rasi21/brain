@@ -415,6 +415,15 @@ footer {
 }
 
 @media (max-width:600px) {
+  .wd {
+    width: 100%;
+  }
+
+  .fotdiv {
+    margin: 20px;
+  }
+
+
 
   .size1 h1 {
     font-size: 43px;
