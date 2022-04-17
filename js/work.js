@@ -187,20 +187,17 @@ b.forEach(el => {
     <div class="jw">
 
         <div class="div-second">
-            <div class="sale ">
-                <h6> SALE</h6>
-            </div>
+            
         </div>
         <div class="txt">
             <h6>${el.title}</h6>
             <p>${el.brand}</p>
-            <h5>${el.price} <span>${el.saleprice}</span> </h5>
+            <h5>${el.price} </h5>
         </div>
     </div>
 </div>`;
     document.getElementById('rjw').innerHTML += card;
 });
-
 
 
 

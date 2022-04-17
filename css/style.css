@@ -364,6 +364,10 @@ footer {
   filter: grayscale(100%) invert(92%) contrast(83%);
 }
 
+.hg {
+  height: 50px;
+}
+
 @media (max-width: 1200px) {
   .ds {
     flex: 0 0 auto;
@@ -400,6 +404,10 @@ footer {
     width: 100%;
   }
 
+  .size1 h1 {
+    margin-top: -38px;
+  }
+
   .size2 {
     width: 100%;
     padding-bottom: 120px;
@@ -409,7 +417,7 @@ footer {
 @media (max-width:600px) {
 
   .size1 h1 {
-    font-size: 30px;
+    font-size: 43px;
   }
 
   .c {
